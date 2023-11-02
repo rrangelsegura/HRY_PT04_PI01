@@ -6,12 +6,12 @@ app = FastAPI()
 
 
 #Loanding flat files to be used by the functions
-maxplaytime_year_by_genre = pd.read_csv("Data/maxplaytime_year_by_genre.csv")
-maxplaytime_by_user_by_genre = pd.read_csv("Data/maxplaytime_by_user_by_genre.csv")
-games_recommended_by_year = pd.read_csv("Data/games_recommended_by_year.csv")
-more_not_recommended_by_users = pd.read_csv("Data/games_not_recommended_by_year.csv")
-sentiment_analisis = pd.read_csv('Data/sentiment_analysis_df.csv')
-database_recomendations = pd.read_csv('Data/database_recomendations.csv')
+maxplaytime_year_by_genre = pd.read_csv("../Data/maxplaytime_year_by_genre.csv")
+maxplaytime_by_user_by_genre = pd.read_csv("../Data/maxplaytime_by_user_by_genre.csv")
+games_recommended_by_year = pd.read_csv("../Data/games_recommended_by_year.csv")
+more_not_recommended_by_users = pd.read_csv("../Data/games_not_recommended_by_year.csv")
+sentiment_analisis = pd.read_csv('../Data/sentiment_analysis_df.csv')
+database_recomendations = pd.read_csv('../Data/database_recomendations.csv')
 
 
 @app.get('/PlayTimeGenre/{genre}')
