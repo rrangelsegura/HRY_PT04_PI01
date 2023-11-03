@@ -34,7 +34,7 @@ def UserForGenre(genre: str):
     else:
         return {f'User with more hours played for Gen  {genre}': str(user[0])}
 
-@app.get('/UserForGenre/{year}')
+@app.get('/UsersRecommend/{year}')
 def UsersRecommend( year : int ): 
     '''Returns the top 3 recommended games by users for the given year (reviews.recommend = True and positive/neutral reviews).'''
     #Filtering by year
