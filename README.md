@@ -112,7 +112,7 @@ In order to deploy what has been developed it was necessary:
 
 **6-Project Video**
 
-[Here is a short video about the project.](https://youtu.be/uc4zuj77ZvI)
+[Here is a short video about the project.](https://www.youtube.com/watch?v=RNSfWPLOA4c)
 
 **7-Conclusions**
 
