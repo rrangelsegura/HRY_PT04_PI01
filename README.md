@@ -38,7 +38,11 @@ And this is the originally provided data dictionary
 **3-Data exploration (EDA)**
 
 After an initial exploration that consists of decompressing and un-nesting the data, the following data model is obtained from a relational model point of view.
-[Model]
+
+<p align="center">
+<img src="src/MER_Games.png"  height=500>
+</p>
+
 When generating the sentiment analysis for each review, two columns are generated: one with the sentiment score and the other with the mood, which is the classification given to the review according to the score obtained.
 On these two fields, the exploration is focused on identifying the distribution of mood based on the score.
 An important finding is the large number of reviews with zero score. This suggests us to explore in detail why there are so many, and leads us to try to identify the language of each review.
@@ -106,7 +110,7 @@ In order to deploy what has been developed it was necessary:
 
 **6-Project Video**
 
-Here is a short video about the project. 
+[Here is a short video about the project.](https://www.youtube.com/watch?v=1Md5Tw56Ovk)
 
 **7-Conclusions**
 
