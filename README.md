@@ -104,9 +104,11 @@ In order to deploy what has been developed it was necessary:
 + 5.1-Build a main.py file with the endpoints to be deployed and with the functions that consume the datasets built to answer each specific question. 
 + 5.2-Include a requierements.txt file with the specification of the libraries that render must use while the service is active.
 + 5.3-Create a repository in GitHub with all the content of the project to be deployed.
+[Here the link to the repository .](https://github.com/rrangelsegura/HRY_PT04_PI01)
 + 5.4-Create a web service in render pointing to the created GitHub repository
 + 5.5-Run the service so that the local application is deployed with the command uvicorn main:app --reload
 + 5.6-Test the deployed endpoints 
+[Here the link to the deployed application.](https://hry-pt04-pi01.onrender.com/docs)
 
 **6-Project Video**
 
